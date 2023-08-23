@@ -14,7 +14,7 @@ I used Omaha as Chicago didnt show up any results and Data as a keyword as "Data
 All the secrets needed for authenticaion of various services are in the secrets.txt file
 
 **Redshift documentation:**
-I spun up a cluster with 1 node and created a table called "jobs_psotings" with the following statement:
+I spun up a cluster with 1 node and created a table called "jobs_postings" with the following statement:
 >create table jobs_postings(
   title varchar(255),
   uri varchar(255),
