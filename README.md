@@ -1,5 +1,5 @@
-The file "toggl_test.py" contains tested code on fetching data from the jobs USA url and uploading to a database
-the code works in three stages:
+The file "toggl_test.py" contains tested code on fetching data from the jobs USA url and uploading to a database.
+The code works in three stages:
  >*Fetch data
  >>*Process data and Write to S3 
  >>>*Upload s3 file to a table in Redshift
