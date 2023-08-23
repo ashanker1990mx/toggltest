@@ -11,7 +11,7 @@ I used the following URL to fetch data:
 I used Omaha as Chicago didnt show up any results and Data as a keyword as "Data engineer" didnt return anything as well(likely too specific)
 
 **Authentication:**
-All the secrets needed for authenticaion of various services are in the secrets.txt file
+All the secrets needed for authentication of various services are in the secrets.txt file
 
 **Redshift documentation:**
 I spun up a cluster with 1 node and created a table called "jobs_postings" with the following statement:
