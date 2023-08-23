@@ -23,3 +23,5 @@ I spun up a cluster with 1 node and created a table called "jobs_postings" with 
   salary_max float
 )
 >>This stores the data from the processed S3 file uploaded via the COPY command. A screenshot of the data loaded in the table is in the repo as well
+
+I would choose AWS as my cloud provider as its easy to integrate with Python libraries like boto3 fof file uploads and s3 for data storage with minimum access credentials(access and secret key). In a prod environment I would deploy this in an airflow server.
